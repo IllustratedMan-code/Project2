@@ -16,7 +16,7 @@ This assignment builds upon the R/shiny class and expands the API example.
 8. Compare results with iLincs
 9. Extra credit for a heatmap or other visualizations.
 
-The assignment is due on -- March 7, 2024 midnight. 
+The assignment is due on -- March 11, 2025 midnight. 
 
 The submission should be zip compressed file named "project2-[*your UC username*].zip" (e.g. "project2-lastnfi.zip") which includes any supporting R files. The zip file should be uploaded canopy. The assignment entry in Canopy will be created shortly.
 

@@ -156,7 +156,7 @@ server <- function(input, output, session) {
       write.csv(diff_result, ftemp, row.names = F, quote=F)
       cat(ftemp)
       
-      r <- POST("http://www.ilincs.org/api/SignatureMeta/uploadAndAnalyze?lib=LIB_5", body = list(file = upload_file(ftemp)))
+      r <- POST("https://www.ilincs.org/api/SignatureMeta/uploadAndAnalyze?lib=LIB_5", body = list(file = upload_file(ftemp)))
       
       l <- lapply(content(r)$status$concordanceTable, function(x) unlist(x))
       ilincs_result <- data.frame(t(sapply(l,c)))
